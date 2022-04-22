@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
     <link rel="stylesheet" href="./styles.css" />
-
+    <link rel="stylesheet" href="./flickity.min.css" media="screen" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/65fc09b8ff.js"
       crossorigin="anonymous"
@@ -46,6 +48,7 @@
           <a href="https://www.linkedin.com/in/uzair-damonse-9b3911236/">
             <i class="fa-brands fa-linkedin" title="Linkedin"></i
           ></a>
+          <i class="fa-solid fa-bars" id="nav-btn"></i>
         </div>
       </div>
     </header>
@@ -53,7 +56,7 @@
     <!-- End of Navigation -->
     <!-- Beginning of About -->
 
-    <div class="About">
+    <div data-aos="fade-up" data-aos-duration="900" class="About">
       <div class="About-Text">
         <h2>About Me</h2>
         <p>
@@ -122,7 +125,7 @@
 
     <!--End of About -->
     <!--Beginning of Skills -->
-    <div id="Skills">
+    <div data-aos="fade-up" data-aos-duration="900" id="Skills">
       <div id="container-title">
         <h2 class="skills-title">Skills</h2>
         <p class="skills-sub-heading">
@@ -178,7 +181,11 @@
     <!--End of Skills -->
     <!--Beginning of Testimonials -->
 
-    <div class="testimonial-container">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="900"
+      class="testimonial-container"
+    >
       <div class="testimonial-title">
         <h2>Testimonials</h2>
         <p>
@@ -188,7 +195,7 @@
           expedita quisquam eaque minus.
         </p>
       </div>
-      <div class="testimonial">
+      <div data-aos="fade-up" data-aos-duration="900" class="testimonial">
         <img src="./Images/Ronan.jpeg" alt="Ricardo" class="testimonial-1" />
         <h3>Ricardo Ronan Moses</h3>
         <h4>Web developer</h4>
@@ -220,5 +227,11 @@
     </footer>
 
     <!--End of Footer -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

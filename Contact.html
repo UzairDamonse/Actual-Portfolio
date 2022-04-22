@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
 
     <script
@@ -46,6 +47,7 @@
           <a href="https://www.linkedin.com/in/uzair-damonse-9b3911236/">
             <i class="fa-brands fa-linkedin" title="Linkedin"></i
           ></a>
+          <i class="fa-solid fa-bars" id="nav-btn"></i>
         </div>
       </div>
     </header>
@@ -54,7 +56,7 @@
     <!-- Beginning of Contact -->
 
     <section id="Contact">
-      <div class="contact-heading">
+      <div data-aos="fade-up" data-aos-duration="900" class="contact-heading">
         <h2>Contact</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
@@ -65,7 +67,7 @@
       </div>
 
       <div class="info-card">
-        <div class="info-container">
+        <div data-aos="fade-up" data-aos-duration="1200" class="info-container">
           <div class="info">
             <div class="address">
               <i class="fa-solid fa-location-dot"></i>
@@ -84,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="form-container">
+        <div data-aos="fade-up" data-aos-duration="1500" class="form-container">
           <form
             action="https://formspree.io/f/xjvlaqdr"
             method="POST"
@@ -97,7 +99,7 @@
                   name="Name"
                   class="Form-control"
                   id="Name"
-                  placeholder="Your Name"
+                  placeholder="Your Name*"
                   required
                 />
               </div>
@@ -107,7 +109,7 @@
                   name="Email"
                   class="Form-control"
                   id="Email"
-                  placeholder="Your Email"
+                  placeholder="Your Email*"
                   required
                 />
               </div>
@@ -119,7 +121,7 @@
                 name="Subject"
                 class="Form-control"
                 id="Subject"
-                placeholder="Subject"
+                placeholder="Subject*"
                 required
               />
             </div>
@@ -130,11 +132,13 @@
                 cols="30"
                 rows="5"
                 class="Form-control"
-                placeholder="Message"
+                placeholder="Message*"
                 required
               ></textarea>
             </div>
-            <div class="Submit"><button type="submit">Send</button></div>
+            <div class="Submit">
+              <button type="submit">Send</button>
+            </div>
           </form>
         </div>
       </div>
@@ -157,5 +161,10 @@
     </footer>
 
     <!--End of Footer -->
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
