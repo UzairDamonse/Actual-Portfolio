@@ -369,10 +369,10 @@ a.link {
 #Resume {
   min-height: 100vh;
   background-color: #fca311;
+  display: grid;
 }
 
 .content-container ul {
-  list-style-type: circle;
 }
 /* Contact page styles */
 
