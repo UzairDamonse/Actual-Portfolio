@@ -370,6 +370,10 @@ a.link {
   min-height: 100vh;
   background-color: #fca311;
 }
+
+.content-container ul {
+  list-style-type: circle;
+}
 /* Contact page styles */
 
 #Contact {
