@@ -1,0 +1,158 @@
+
+    <header id="Header" class="Fixed-Top">
+      <div class="Header-Content">
+        <h1 class="Logo"><a href="./index.html">Uzair</a></h1>
+        <nav id="navbar">
+          <ul class="nav-links">
+            <li class="Links">
+              <a href="/index.html" class="link">Landing</a>
+            </li>
+            <li class="Links">
+              <a href="./About.html" class="link">About</a>
+            </li>
+            <li class="Links">
+              <a href="./Projects.html" class="link">Projects</a>
+            </li>
+            <li class="Links">
+              <a href="./Resume.html" class="link">Resume</a>
+            </li>
+            <li class="Links">
+              <a href="./Contact.html" class="link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="Social-media-links">
+          <a href="https://www.facebook.com/uzair.damonse.1/"
+            ><i class="fa-brands fa-facebook" title="Facebook"></i
+          ></a>
+          <a href="https://github.com/UzairDamonse">
+            <i class="fa-brands fa-github" title="Github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/uzair-damonse-9b3911236/">
+            <i class="fa-brands fa-linkedin" title="Linkedin"></i
+          ></a>
+          <i class="fa-solid fa-bars" id="nav-btn"></i>
+        </div>
+      </div>
+    </header>
+
+
+fnvcnvcn
+
+
+
+    <section id="Resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="resume-header">Resume</h2>
+          <p class="resume-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            totam, optio laudantium earum iure ea molestiae ut modi eos quas
+            aspernatur. Similique, excepturi? Similique facilis, sunt ullam
+            ducimus quis delectus.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="content-container">
+              <div class="summary">
+                <h3 class="summary-header">Summary</h3>
+                <div class="summary-content">
+                  <h4>Uzair Damonse</h4>
+                  <p>
+                    <em
+                      >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ratione, modi delectus! Sapiente totam labore aut
+                      corrupti? Aut id voluptates maiores consequuntur, quod
+                      quibusdam neque deserunt? Saepe error laborum libero
+                      nostrum.</em
+                    >
+                  </p>
+                  <p></p>
+                  <ul class="info">
+                    <li>97 Lonston Road, Cape Town, SA</li>
+                    <li>+27 82 601 0435</li>
+                    <li>uzairdamonse03@gmail.com</li>
+                  </ul>
+                  <p></p>
+                </div>
+                <h3 class="education">Education</h3>
+                <div>
+                  <h4>Diploma Matric</h4>
+                  <h5>2017-2021</h5>
+                  <p>
+                    <em>Cape Acdaemy of Mathematics, Science and Technology</em>
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis quos eaque sapiente nisi! Quasi, impedit dolore
+                    provident quis ipsa, autem eaque natus, placeat sit mollitia
+                    consequuntur repudiandae quos laborum praesentium.
+                  </p>
+                </div>
+                <div class="other-education-content">
+                  <h4>Full Stack Development Bootcamp</h4>
+                  <h5>2022</h5>
+                  <p>
+                    <em> Life Choices Academy </em>
+                  </p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Cumque nobis odit expedita minus dignissimos inventore esse
+                    a earum aliquid ea! Unde eius soluta animi ex sequi amet at
+                    inventore est.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="experience">
+                <h3 class="work-experience-header">Work experience</h3>
+                <div>
+                  <div class="work-experience-content">
+                    <h4>Intern</h4>
+                    <h5>2021-2022</h5>
+                    <p>ATK Arena, Claremont, SA</p>
+                    <p></p>
+                    <ul>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="other-work-experience-content">
+                    <h4>Intern</h4>
+                    <h5>2021-2022</h5>
+                    <p>ATK Arena, Claremont, SA</p>
+                    <p></p>
+                    <ul>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                      <li>
+                        ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

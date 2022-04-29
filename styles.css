@@ -14,7 +14,7 @@ body {
 
 /* Navigation styles */
 
-#Header {
+/* #Header {
   z-index: 1000;
   padding: 15px 0;
   position: fixed;
@@ -65,7 +65,7 @@ ul.nav-links {
 a.link {
   padding: 10px 0 10px 28px;
   color: #14213d;
-}
+} */
 
 .Social-media-links {
   padding-right: 15px;
@@ -86,10 +86,6 @@ a.link {
   font-size: 25px;
 }
 
-#nav-btn {
-  display: none;
-}
-
 /* Landing styles */
 
 #Landing {
@@ -105,6 +101,10 @@ a.link {
 }
 #Landing .container {
   padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #Landing h1 {
@@ -117,6 +117,8 @@ a.link {
 #Landing h2 {
   font-size: 22px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 .container a {
   display: flex;
@@ -136,13 +138,19 @@ a.link {
   color: #fca311;
   background-color: #14213d;
   display: flex;
+  width: 300px;
 }
 
 /* About page styles */
 
+.About-pic {
+  height: 150px;
+  width: 100px;
+}
+
 .About {
   padding-top: 108px;
-  min-height: 95vh;
+  min-height: 60vh;
   background-color: #fca311;
   display: flex;
   justify-content: space-evenly;
@@ -173,6 +181,7 @@ a.link {
   float: left;
   flex: 0 0 auto;
   padding-left: 20px;
+  height: 70%;
 }
 
 .right-of-image {
@@ -311,6 +320,21 @@ a.link {
 
 /* Testimonials styles */
 
+#Ricardo {
+  width: 15%;
+  height: 15%;
+}
+
+#Ashton {
+  width: 15%;
+  height: 15%;
+}
+
+#Mueed {
+  width: 15%;
+  height: 15%;
+}
+
 .testimonial-container {
   background-color: #14213d;
   color: #fca311;
@@ -366,13 +390,40 @@ a.link {
 
 /* Resume page styles */
 
-#Resume {
-  min-height: 100vh;
-  background-color: #fca311;
-  display: grid;
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #444444;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: #fca311;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #14213d;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
 
-.content-container ul {
+.resume {
+  background-color: #fca311;
+  padding-top: 100px;
 }
 /* Contact page styles */
 
@@ -401,16 +452,11 @@ a.link {
   margin-top: 3rem;
 }
 
-.info-container {
-  flex: 0 0 auto;
-  width: 33.33%;
-}
-
 .info {
   width: 100%;
 }
 
-.info i {
+.info-container i {
   font-size: 20px;
   float: left;
   width: 44px;
@@ -419,6 +465,13 @@ a.link {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  background-color: #14213d;
+}
+
+.info-container i:hover {
+  background-color: #fca311;
+  color: #14213d;
+  cursor: pointer;
 }
 
 .info h4 {
@@ -447,6 +500,7 @@ a.link {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  background-color: #14213d;
 }
 
 .email h4 {
@@ -462,6 +516,34 @@ a.link {
   margin-bottom: 0;
 }
 
+.address {
+  margin-top: 40px;
+}
+
+.address i {
+  font-size: 20px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #14213d;
+}
+
+.address h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.address p {
+  padding: 0 0 0 60px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
 .phone {
   margin-top: 40px;
 }
@@ -499,7 +581,6 @@ a.link {
 }
 
 .form-container {
-  width: 66.66%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -514,6 +595,7 @@ a.link {
 }
 .contact {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-name {
@@ -522,8 +604,6 @@ a.link {
 }
 
 #Name {
-  width: 100%;
-  height: 44px;
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -537,8 +617,6 @@ a.link {
 }
 
 #Email {
-  width: 100%;
-  height: 44px;
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -568,8 +646,6 @@ a.link {
 }
 
 #Message {
-  width: 100%;
-  height: 138px;
   padding: 10px 12px;
   border-radius: 4px;
   box-shadow: none;
@@ -602,11 +678,25 @@ a.link {
   color: #fca311;
 }
 
-@media screen and (max-width: 770px) {
-  .Links {
-    display: none;
+@media screen and (max-width: 900px) {
+  .Skills-container .skills-right .progess {
+    width: 100%;
   }
-  #nav-btn {
-    display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .info-container {
+    width: 100%;
+  }
+  .contact-name {
+    width: 100%;
+  }
+  .contact-email {
+    width: 100%;
+    margin-top: 12px;
   }
 }

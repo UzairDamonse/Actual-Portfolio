@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles.css" />
 
     <script
@@ -14,29 +20,40 @@
   </head>
   <body>
     <!-- Beginning of Navigation -->
-    <header id="Header" class="Fixed-Top">
-      <div class="Header-Content">
-        <h1 class="Logo"><a href="./index.html">Uzair</a></h1>
-        <nav id="navbar">
-          <ul class="nav-links">
-            <li class="Links">
-              <a href="/index.html" class="link">Landing</a>
-            </li>
-            <li class="Links">
-              <a href="./About.html" class="link">About</a>
-            </li>
-            <li class="Links">
-              <a href="./Projects.html" class="link">Projects</a>
-            </li>
-            <li class="Links">
-              <a href="./Resume.html" class="link">Resume</a>
-            </li>
-            <li class="Links">
-              <a href="./Contact.html" class="link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="Social-media-links">
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light justify-content-between"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand justify-content-start" href="./index.html"
+          >UZAIR</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/index.html"
+              >Landing</a
+            >
+            <a class="nav-link" href="./About.html">About</a>
+            <a class="nav-link" href="./Projects.html">Projects</a>
+            <a class="nav-link" href="./Resume.html">Resume</a>
+            <a class="nav-link" href="./Contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="Social-media-links d-flex justify-content-end">
           <a href="https://www.facebook.com/uzair.damonse.1/"
             ><i class="fa-brands fa-facebook" title="Facebook"></i
           ></a>
@@ -46,117 +63,148 @@
           <a href="https://www.linkedin.com/in/uzair-damonse-9b3911236/">
             <i class="fa-brands fa-linkedin" title="Linkedin"></i
           ></a>
-          <i class="fa-solid fa-bars" id="nav-btn"></i>
         </div>
       </div>
-    </header>
-
+    </nav>
     <!-- End of Navigation -->
     <!-- Beginning of Resume -->
 
-    <section id="Resume">
-      <div class="Resume-container">
-        <div class="resume-title">
-          <h2>Resume</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            totam, optio laudantium earum iure ea molestiae ut modi eos quas
-            aspernatur. Similique, excepturi? Similique facilis, sunt ullam
-            ducimus quis delectus.
+    <section id="resume" class="resume">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+        <div class="section-title">
+          <h2 class="d-flex justify-content-center">Resume</h2>
+          <p class="d-flex justify-content-center">
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
           </p>
         </div>
-        <div class="content-container">
-          <div class="summary">
-            <h3>Summary</h3>
-            <div>
-              <h4>Uzair Damonse</h4>
-              <p>
-                <em
-                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Ratione, modi delectus! Sapiente totam labore aut corrupti?
-                  Aut id voluptates maiores consequuntur, quod quibusdam neque
-                  deserunt? Saepe error laborum libero nostrum.</em
-                >
-              </p>
-              <p></p>
-              <ul class="info">
-                <li>97 Lonston Road, Cape Town, SA</li>
-                <li>+27 82 601 0435</li>
-                <li>uzairdamonse03@gmail.com</li>
+
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="timeline">
+                <li>
+
+                  <h3 class="resume-title">Summary</h3>
+                  <div class="resume-item pb-0">
+                    <h4>Uzair Damonse</h4>
+                    <p>
+                      <em
+                        >Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Ratione, modi delectus! Sapiente totam labore aut
+                        corrupti? Aut id voluptates maiores consequuntur, quod
+                        quibusdam neque deserunt? Saepe error laborum libero
+                        nostrum.</em
+                      >
+                    </p>
+                    <p></p>
+                    <ul>
+                      <li>Southern Suburbs, Cape Town, SA</li>
+                      <li>+27 82 601 0435</li>
+                      <li>uzairdamonse03@gmail.com</li>
+                    </ul>
+                    <p></p>
+                  </div>
+                </li>
+                <li>
+                  <h3 class="resume-title">Education</h3>
+                  <div class="resume-item">
+                    <h4>Diploma Matric</h4>
+                    <h5>2017-2021</h5>
+                    <p>
+                      <em
+                        >Cape Acdaemy of Mathematics, Science and Technology</em
+                      >
+                    </p>
+                    <p>
+                      Qui deserunt veniam. Et sed aliquam labore tempore sed
+                      quisquam iusto autem sit. Ea vero voluptatum qui ut
+                      dignissimos deleniti nerada porti sand markend
+                    </p>
+                  </div>
+                  <div class="resume-item">
+                    <h4>Full Stack Development Bootcamp</h4>
+                    <h5>2022</h5>
+                    <p><em> Life Choices Academy </em></p>
+                    <p>
+                      Quia nobis sequi est occaecati aut. Repudiandae et iusto
+                      quae reiciendis et quis Eius vel ratione eius unde vitae
+                      rerum voluptates asperiores voluptatem Earum molestiae
+                      consequatur neque etlon sader mart dila
+                    </p>
+                  </div>
+                      
+                    
+                      
+                    </li>
               </ul>
-              <p></p>
             </div>
-            <h3>Education</h3>
-            <div>
-              <h4>Diploma Matric</h4>
-              <h5>2017-2021</h5>
-              <p>
-                <em>Cape Acdaemy of Mathematics, Science and Technology</em>
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quos eaque sapiente nisi! Quasi, impedit dolore provident quis
-                ipsa, autem eaque natus, placeat sit mollitia consequuntur
-                repudiandae quos laborum praesentium.
-              </p>
-            </div>
-            <div>
-              <h4>Full Stack Development Bootcamp</h4>
-              <h5>2022</h5>
-              <p>
-                <em> Life Choices Academy </em>
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                nobis odit expedita minus dignissimos inventore esse a earum
-                aliquid ea! Unde eius soluta animi ex sequi amet at inventore
-                est.
-              </p>
-            </div>
-          </div>
-          <div class="experience">
-            <h3>Work experience</h3>
-            <div>
-              <div>
-                <h4>Intern</h4>
-                <h5>2021-2022</h5>
-                <p>ATK Arena, Claremont, SA</p>
-                <p></p>
-                <ul>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4>Intern</h4>
-                <h5>2021-2022</h5>
-                <p>ATK Arena, Claremont, SA</p>
-                <p></p>
-                <ul>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                  <li>
-                    ausfhiuhgoisdughweoihgoiweffweoioEIHWEGWEUHOHOWEWHFHWEUFHIUHUhiuhsiugiuehiuhewiuhgiuewhfiuheuihweui
-                  </li>
-                </ul>
-              </div>
+            <div class="col-md-6">
+
+              <ul class="timeline">
+                <li>
+                  <h3 class="resume-title">Professional Experience</h3>
+                  <div class="resume-item">
+                        <h4>Intern</h4>
+                        <h5>2021-2022</h5>
+                        <p><em>ATK Arena, Claremont, SA </em></p>
+                        <p></p>
+                        <ul>
+                          <li>
+                            Lead in the design, development, and implementation
+                            of the graphic, layout, and production communication
+                            materials
+                          </li>
+                          <li>
+                            Delegate tasks to the 7 members of the design team
+                            and provide counsel on all aspects of the project.
+                          </li>
+                          <li>
+                            Supervise the assessment of all graphic materials in
+                            order to ensure quality and accuracy of the design
+                          </li>
+                          <li>
+                            Oversee the efficient use of production project
+                            budgets ranging from $2,000 - $25,000
+                          </li>
+                        </ul>
+                        <p></p>
+                      </div>
+                      <li>
+                        <div class="resume-item">
+                          <h4>Graphic design specialist</h4>
+                          <h5>2017 - 2018</h5>
+                          <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                          <p></p>
+                          <ul>
+                            <li>
+                              Developed numerous marketing programs (logos,
+                            brochures,infographics, presentations, and
+                            advertisements).
+                          </li>
+                          <li>
+                            Managed up to 5 projects or tasks at a given time
+                            while under pressure
+                          </li>
+                          <li>
+                            Recommended and consulted with clients on the most
+                            appropriate graphic design
+                          </li>
+                          <li>
+                            Created 4+ design presentations and proposals a
+                            month for clients and account managers
+                          </li>
+                        </ul>
+                        <p></p>
+                      </div>
+                      
+                    </li>
+                    </li>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -180,5 +228,12 @@
     </footer>
 
     <!--End of Footer -->
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
